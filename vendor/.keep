@@ -6,6 +6,4 @@ has_one through: user has_one student_history through students
 
 polymorphic : post , articles , news has_many  comments
 
-dskflkflskf
-]d;aldald
-sfjsnfks
+
