@@ -1,0 +1,7 @@
+has_and_belongs_to_many: students has_and_belongs_to_many courses
+
+has_many through: student has_many teachers through meetings
+
+has_one through: user has_one student_history through students
+
+polymorphic : post , articles , news has_many  comments
